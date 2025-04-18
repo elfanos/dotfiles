@@ -1,0 +1,25 @@
+# Navigation
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# Make window native fullscreen
+alt - z : yabai -m window --toggle zoom-fullscreen
+
+
+# cmd - t : yabai -m window --toggle float;\
+          # yabai -m window --grid 4:4:1:1:2:2
+
+# switch to an specific application
+#
+
+
+alt - p : Open -a "Sol.app" -n --args --new-window
+alt - q : Open -a "Ghostty.app" -n  
+cmd - return : Open -a "Brave Browser MacOS.app" -n --args 
+.blacklist [
+    "qutebrowser"
+    "kitty"
+    "google chrome"
+]

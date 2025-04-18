@@ -1,2 +1,0 @@
-require("rallmo-edit.remap")
-

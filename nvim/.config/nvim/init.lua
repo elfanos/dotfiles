@@ -1,6 +1,7 @@
 -- vim.fn.setenv("MACOSX_DEPLOYMENT_TARGET", "10.15")
+require("config.vim-options")
 require("config.lazy")
+require("rallmo-style")
 require("rallmo")
 require("rallmo-explorer")
 require("rallmo-window")
-require("rallmo-edit")
